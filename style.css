@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  /* ### Primary */
+
+  --Soft-red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+
+  /* ### Neutral */
+
+  --Dark-brown: hsl(25, 47%, 15%);
+  --Medium-brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--Cream);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card {
+  flex-grow: 1;
+  min-width: 345px;
+  width: 100%;
+  max-width: 540px;
+}
+
+.card__header {
+  background-color: var(--Soft-red);
+  color: white;
+}
+
+.card__body {
+  background-color: var(--Very-pale-orange);
+}
+
+.card__header,
+.card__body {
+  border-radius: 0.5rem;
+}
+
+.chart-container {
+  border-color: var(--Cream);
+}
+
+.slate-text {
+  color: rgb(100 116 139);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
