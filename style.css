@@ -57,7 +57,7 @@ main {
 
 .card__header,
 .card__body {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .chart-container {
